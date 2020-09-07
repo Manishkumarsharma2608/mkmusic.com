@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <title>MusicPlayer</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="main_div">
+  <div class="music_container">
+    <div class="song_count" id="songsCount"></div>
+    <h1 id="title">Aayengi</h1>
+    <h4 id="artist">Indeep Bakshi</h4>
+    <div class="img_div">
+      <img src="images/Aayengi.jpg" alt="trackimage">
+     </div>
+     <audio src="songs/Aayengi.mp3" ></audio>
+    
+    <!--Progress bar-->
+    <div class="progressbar_main_container" id="progressbar_container">
+      <div class="time_container">
+        <div class="current_time" id="current_time">0:0</div>
+        <div class="total_duration" id="total_duration">2:56</div>
+      </div>
+      <div class="progressbar_div" id="progressbar_div">
+        <div class="progress" id="progress"></div>
+      </div>
+    </div>
+      <div class="music_controls">
+        <i class = "fas fa-backward" id ="prev" title="previous"></i>
+        <i class = "fas fa-play main_button" id ="play" title="play"></i>
+        <i class = "fas fa-forward" id ="next" title="next"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
